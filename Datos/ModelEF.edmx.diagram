@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="94a48deadedc4b6997d3013ce9f0860e" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelEF.Administrador" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Almacen" Width="1.5" PointX="3.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Pedido" Width="1.5" PointX="0.625" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Producto" Width="1.5" PointX="3.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Proveedor" Width="1.5" PointX="6.375" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Reposicion" Width="1.5" PointX="3.625" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="ModelEF.FK__Pedido__ID_Admin__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.FK__Reposicio__ID_Al__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.FK__Reposicio__ID_Pe__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.FK__Producto__ID_Pro__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.FK__Reposicio__ID_Pr__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
